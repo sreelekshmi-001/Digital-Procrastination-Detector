@@ -6,11 +6,11 @@ import csv
 import io
 from datetime import datetime, timedelta
 
-from database.activity_database import (
+
+from detection.database.activity_database import (
     get_daily_goal,
     set_daily_goal
 )
-
 app = Flask(__name__)
 
 
